@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+#quote-box {
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  border-radius: 8px;
+
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+#quote {
+  font-size: 32px;
+  width: 80%;
+  color: rgba(244, 66, 66, 1);
+  
+
+  
+}
+
+#quote-text {
+  margin-bottom: 5%;
+  font-weight: bold; 
+ 
+  
+}
+
+#quote-autor{
+  float: right;
+ 
+  
+}
+
+#buttons{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+}
+
+.twitter-share-button{
+
+  
+  color: white;
+  font-size: 32px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  /*background-color: rgba(244, 66, 66, 1) ;*/
+}
+
+a:visited {
+  color: white;
+  font-size: 32px;
+  padding: 8px 20px;
+  border-radius: 4px;
+ /* background-color: rgba(244, 66, 66, 1) ;*/
+}
+.btn-2{
+  font-size: 32px;
+  /*background-color: rgba(244, 66, 66, 1);*/
+  border: none;
+  padding:  8px 28px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.newFadeIn {
+
+  animation-name: fadeIn;
+  animation-duration: 5s;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fadeIn2 {
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}

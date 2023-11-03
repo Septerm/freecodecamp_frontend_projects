@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="drumMachine">
+
+            <div class="buttons">
+                <button class="Q">Q</button>
+                <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+                <button class="W">W</button>
+                <button class="E">E</button>
+                <button class="A">A</button>
+                <button class="S">S</button>
+                <button class="D">D</button>
+                <button class="Z">Z</button>
+                <button class="X">X</button>
+                <button class="C">C</button>
+            </div>
+
+            <div class="controls">
+                
+                <div class="contolSwitch">
+                    <div class="switchText">Power</div>
+                    <label class="switch">
+                        <input id="Power" type="checkbox" >
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="screen"></div>
+
+                <input id="volumeSlider" max="1" min="0" step="0.01" value="1" type="range">
+
+                <div class="contolSwitch">
+                    <div class="switchText">Bank</div>
+                    <label class="switch">
+                        <input id="Bank" type="checkbox" disabled>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

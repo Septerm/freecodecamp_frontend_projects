@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Calculator</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="topScreen" data-previous-operand></div>
+            <div class="bottomScreen" data-current-operand></div>
+        </div>
+        <div class="buttons">
+
+            <button class="numbers" data-number>7</button>
+            <button class="numbers" data-number>8</button>
+            <button class="numbers" data-number>9</button>
+            <button class="operation" data-operation>/</button>
+
+            <button class="numbers" data-number>4</button>
+            <button class="numbers" data-number>5</button>
+            <button class="numbers" data-number>6</button>
+            <button class="operation" data-operation>x</button>
+
+            <button class="numbers" data-number>1</button>
+            <button class="numbers" data-number>2</button>
+            <button class="numbers" data-number>3</button>
+            <button class="operation" data-operation>-</button>
+
+            <button class="reset" data-all-clear>C</button>
+            <button class="numbers" data-number>.</button>
+            <button class="numbers" data-number>0</button>
+            <button class="operation" data-operation>+</button>
+
+        </div>
+        <button class="calculate" data-equals>=</button>
+    </div>
+</body>
+</html>

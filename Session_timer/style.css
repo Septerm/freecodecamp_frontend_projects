@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2D2C ;
+}
+
+i {
+
+    cursor: pointer;
+
+}
+
+i:hover {
+
+    color: rgb(63, 64, 64);
+}
+.container {
+
+    width: 800px;
+    height: 500px;
+    background-color: rgba(78, 216, 235, 1);
+    border: 9px solid rgba(44, 192, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top, .bottom{
+
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+.screen {
+    font-size: 64px;
+    
+    background-color: rgba(30, 30, 30, 1);
+    height: 108px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.controlLeft {
+
+    margin-left: 52px;
+    text-align: center;
+}
+
+
+.controlRight {
+    margin-right: 52px;
+    text-align: center;
+}
+
+.leftText, .rightText {
+    margin-bottom: 10px;
+}
+
+.bottom > i {
+
+    font-size: 48px;
+}
+
+.fa-pause{
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
